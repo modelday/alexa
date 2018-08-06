@@ -1,0 +1,133 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "hello markets",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "NumberGuessIntent",
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "try {number}",
+                        "{number}",
+                        "is it {number}",
+                        "how about {number}",
+                        "could be {number}"
+                    ]
+                },
+                {
+                    "name": "HelloMarketsIntent",
+                    "slots": [
+                        {
+                            "name": "product",
+                            "type": "PRODUCT"
+                        },
+                        {
+                            "name": "source",
+                            "type": "SOURCE"
+                        }
+                    ],
+                    "samples": [
+                        "from {source} tell me about {product}",
+                        "get me info about {product}",
+                        "what is up with {product}",
+                        "what's up with {product}",
+                        "what's the news on {product}",
+                        "i want to know about {product}",
+                        "tell me about {product}",
+                        "ask {source} about {product}",
+                        "ask {source} to tell me about {product}",
+                        "tell me about {product} from {source}",
+                        "according to {source} what happened with {product}",
+                        "what happened with {product} according to {source}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "PRODUCT",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Amazon"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "SOURCE",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Time"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "TechCrunch"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Reuters"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Newsweek"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "MSNBC"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "CNBC"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "CNN"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bloomberg"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
