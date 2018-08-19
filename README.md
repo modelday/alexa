@@ -1,3 +1,5 @@
-# alexa skill - daily market news
+# Amazon Alexa Skill - daily market news
 
-A skill that serves up daily market news
+An Amazon Alexa Skill that serves up daily market news
+
+A Hackathon Project
